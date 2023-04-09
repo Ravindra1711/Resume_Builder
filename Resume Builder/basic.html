@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="basic.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bubble Resume</title>
+  </head>
+  <body>
+    <div class="hero">
+      <div class="navbar">
+        <img src="th.jpeg" class="logo" />
+
+        <form action="login.html">
+          <button id="bt1" type="submit">
+            <strong>Sign up/Login</strong>
+          </button>
+        </form>
+      </div>
+
+      <div class="con">
+        <div class="f1">
+          
+            <strong
+              ><h1 style="color: rgb(250, 134, 216)">BUILD YOUR</h1><br />
+             <h1 style="font-family: lucida handwriting,cursive"> <span id="text"></span
+            ></strong>
+          </h1>
+        </div>
+        <a href="details.html"><button type="button">Let's go!</button></a>
+      </div>
+
+      <div class="bubbles">
+        <img src="bubble.png" />
+        <img src="bubble.png" />
+        <img src="bubble.png" />
+        <img src="bubble.png" />
+        <img src="bubble.png" />
+        <img src="bubble.png" />
+        <img src="bubble.png" />
+      </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
+    <script>
+      let typingText = new Typed("#text", {
+        strings: ["Resume","रिज्यूमे", "Résumé", "简历", "履歴書 "],
+        loop: true,
+        typeSpeed:100,
+        backSpeed:50,
+        backDelay:1000
+      });
+    </script>
+  </body>
+</html>
